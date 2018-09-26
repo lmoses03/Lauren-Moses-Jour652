@@ -64,11 +64,12 @@ font-size: 1.5em;
   margin-top: 2px;
 }
 
+/* descriptions */
 .description {
   margin-top: 10px;
   font-family:sans-serif;
 }
-
+/*contact info*/
 .menu {
   margin:0px;
   padding: 0px;
@@ -78,10 +79,11 @@ font-size: 1.5em;
   display: inline;
   list-style: none;
 }
+/* UL in skills */
 #do {
   margin-top: 5px;
 }
-
+/* UL in education */
 #degrees {
   margin-top:5px;
 }
@@ -94,7 +96,7 @@ font-size: 1.5em;
   margin-bottom: 30px;
   font-size: 16px;
 }
-
+/* around entire document */
 #container {
   width: 100%;
   max-width: 1200px;
