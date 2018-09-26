@@ -20,33 +20,56 @@ strong {
   color: #33485e;
 }
 /* name */
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform:uppercase;
   text-align: center;
+  border: 2px solid #334853;
+  width:60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 /* section titles */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: capitalize;
   background-color: #33485e;
   color: white;
   font-weight:400;
+  margin-top: 10px
+  margin-bottom: 20px
+  width:70%
+  min-widht: 300px
 }
 /* job titles */
-h3 {
+.jobtitle {
 font-weight:600;
 font-size: 1.5em;
 }
 /* organizations */
-h4 {
+.organization {
   font-weight:400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 /* job dates */
-h5 {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style:italic;
+  margin-top: 2px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.menu {
+  margin:0px;
+  padding: 0px;
+  text-align: center;
+}
+.menu li {
+  display: inline;
+  list-style: none;
 }
