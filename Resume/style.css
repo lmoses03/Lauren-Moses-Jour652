@@ -14,10 +14,13 @@ p {
 }
 
 /* title */
-strong {
+#title {
   text-transform: capitalize;
   font-size: 1.5em;
   color: #33485e;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
 }
 /* name */
 #name {
@@ -30,6 +33,7 @@ strong {
   min-width: 300px;
   margin: 0 auto;
 }
+
 /* section titles */
 .sectionheader {
   font-size: 1.5em;
@@ -40,7 +44,7 @@ strong {
   margin-top: 10px
   margin-bottom: 20px
   width:70%
-  min-widht: 300px
+  min-width: 300px
 }
 /* job titles */
 .jobtitle {
@@ -62,6 +66,7 @@ font-size: 1.5em;
 
 .description {
   margin-top: 10px;
+  font-family:sans-serif;
 }
 
 .menu {
@@ -72,4 +77,27 @@ font-size: 1.5em;
 .menu li {
   display: inline;
   list-style: none;
+}
+#do {
+  margin-top: 5px;
+}
+
+#degrees {
+  margin-top:5px;
+}
+
+/* mission statement*/
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
 }
