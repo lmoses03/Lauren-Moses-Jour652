@@ -1,0 +1,15 @@
+/*
+styles for my resume project
+*/
+/*banner image*/
+.jumbotron {
+  background-color: white !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+/* eucation box*/
+.col-md-12 {
+  width: 80px;
+  height:200px;
+  border:3px solid a864a8;
+}
