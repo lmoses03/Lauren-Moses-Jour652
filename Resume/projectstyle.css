@@ -7,9 +7,32 @@ styles for my resume project
   margin:0 !important;
   padding:0 !important;
 }
-/* eucation box*/
 .col-md-12 {
-  width: 80px;
-  height:200px;
-  border:3px solid a864a8;
+  text-align: center;
+  border: 3px solid grey;
+}
+
+/* job titles */
+.jobtitle {
+font-weight:600;
+font-size: 1.5em;
+margin-top: 30px 20px;
+}
+/* organizations */
+.organization {
+  font-weight:400;
+  font-size: 1.25em;
+}
+/* job dates */
+.date {
+  font-weight: 400;
+  font-size: 1em;
+  font-style:italic;
+  margin-top: 2px;
+}
+/* descriptions */
+.description {
+  margin-top: 10px;
+  font-family:sans-serif;
+  margin-bottom: 10px;
 }
