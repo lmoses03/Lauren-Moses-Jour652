@@ -3,13 +3,23 @@ styles for my resume project
 */
 /*banner image*/
 .jumbotron {
-  background-color: white !important;
   margin:0 !important;
   padding:0 !important;
 }
-.col-md-12 {
+/* background color*/
+.body{
+  background-color: #d7d7d7;
+  font-family: 'Krub', sans-serif;
+}
+/* links to media */
+.list-inline-item{
   text-align: center;
-  border: 3px solid grey;
+  color: black;
+}
+
+.full-width {
+  border: 1px solid black;
+  text-align: center;
 }
 
 /* job titles */
@@ -35,4 +45,14 @@ margin-top: 30px 20px;
   margin-top: 10px;
   font-family:sans-serif;
   margin-bottom: 10px;
+}
+
+.sectionheader {
+  font-size: 1.5em !important;
+  text-decoration: underline !important;
+  
+}
+
+footer {
+  text-align: center;
 }
