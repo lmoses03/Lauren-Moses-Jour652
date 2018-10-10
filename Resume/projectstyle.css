@@ -10,15 +10,39 @@ styles for my resume project
 .body{
   background-color: #d7d7d7;
   font-family: 'Krub', sans-serif;
+  color: #a864a8;
 }
 /* links to media */
-.list-inline-item{
+.menu{
   text-align: center;
-  color: black;
+  margin: 0 auto;
+}
+.email {
+  color: #a864a8 !important;
+  border-radius: 4px !important;
+  background-color: #d7d7d7;
+}
+
+.linkedin {
+  color: #a864a8 !important;
+  border-radius: 4px !important;
+  background-color: #d7d7d7;
+}
+
+.Twitter {
+  color: #a864a8 !important;
+  border-radius: 4px !important;
+  background-color: #d7d7d7;
+}
+
+.Github {
+  color: #a864a8 !important;
+  border-radius: 4px !important;
+  background-color: #d7d7d7;
 }
 
 .full-width {
-  border: 1px solid black;
+  border: 1px solid;
   text-align: center;
 }
 
@@ -50,8 +74,17 @@ margin-top: 30px 20px;
 .sectionheader {
   font-size: 1.5em !important;
   text-decoration: underline !important;
-  
 }
+
+.sectionheader1 {
+  font-size: 1.5em !important;
+  text-decoration: underline !important;
+}
+.sectionheader2 {
+  font-size: 1.5em !important;
+  text-decoration: underline !important;
+}
+
 
 footer {
   text-align: center;

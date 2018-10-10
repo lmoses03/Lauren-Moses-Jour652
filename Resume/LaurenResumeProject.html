@@ -10,6 +10,7 @@
     <meta name= "description" content="Bootstrap template">
     <meta name="author" content="Lauren Moses">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   </head>
 
     <!-- Bootstrap CSS -->
@@ -22,7 +23,7 @@
   <div class="body">
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Lauren Moses</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,11 +32,12 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Experience<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Experience<span class="sectionheader1"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
-
+        <a class="nav-link" href="#">Skills<span class="sectionheader2"></span></a>
+      </li>
+  </ul>
 
   </div>
 </nav>
@@ -44,15 +46,23 @@
 <div class="jumbotron">
  <img src="BannerAssignment.png" alt= "Banner" width= "100%">
 </div>
+<br><br>
 
 <div class="container">
 
       <ul class="menu">
         <li class="list-inline-item">
-          <a href="mailto:lm3tx@virginia.edu">lm3tx@virginia.edu</a></li>
-        <li class="list-inline-item"><a href="https://www.linkedin.com/in/lauren-moses-b26580130/">LinkedIn</a></li>
-        <li class="list-inline-item"><a href=" https://twitter.com/lauren_briellee">Twitter</a></li>
-        <li class="list-inline-item"><a href="https://github.com/lmoses03">Github</a></li>
+          <input type="button" class="email" value="lmoses03@umd.edu" onclick="location.href = 'mailto:lm3tx@virginia.edu';"/>
+        </li>
+        <li class="list-inline-item">
+          <input type="button" class="linkedin" value="LinkedIn" onclick="location.href = 'https://www.linkedin.com/in/lauren-moses-b26580130/';"/>
+        </li>
+        <li class="list-inline-item">
+          <input type="button" class="Twitter" value="Twitter" onclick="location.href = 'https://twitter.com/lauren_briellee';"/>
+        </li>
+        <li class="list-inline-item">
+          <input type="button" class="Github" value="Github" onclick="location.href = 'https://github.com/lmoses03';"/>
+        </li>
       </ul>
 
 </div><!-- container -->
@@ -82,7 +92,7 @@
         <div class="row">
                 <div class="col-md-8">
 
-                    <div class="sectionheader"><strong> Experience</strong></div>
+                    <div class="sectionheader1"><strong> Experience</strong></div>
                 <br>
                     <div class= "organization">Big Ten Network (BTN) StudentU (University of Maryland)</div>
                     <div class="jobtitle">Color Commentator, Camera Operator, Graphics/Flyboc Operator</div>
@@ -120,7 +130,7 @@
 <div class="container">
 <div class="row">
         <div class="col-md-12 full-width">
-            <p> <div class="sectionheader"><strong>Skills:</strong></div>
+            <p> <div class="sectionheader2"><strong>Skills:</strong></div>
               <ul class="list-unstyled">
                 <li>Adobe Photoshop</li>
                 <li>Microsoft Office</li>
@@ -135,9 +145,8 @@
 
 <br></br>
 <footer>
-  <p>Created by Lauren Moses</p>
+  <i class="far fa-copyright"><br>Lauren Moses</i>
 </footer>
-
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
