@@ -47,12 +47,13 @@ styles for my resume project
   text-align: center;
   font-weight: 600;
   border-radius: 10px;
+  width: 100%;
 }
 
 /* job titles */
 .jobtitle {
 font-weight:600;
-font-size: 1.5em;
+font-size: 1.35em;
 margin-top: 30px 20px;
 }
 /* organizations */
