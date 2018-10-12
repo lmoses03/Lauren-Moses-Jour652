@@ -26,26 +26,27 @@ styles for my resume project
 
 .linkedin {
   color: #a864a8 !important;
-  border-radius: 4px !important;
+  border-radius: 10px !important;
   background-color: #d7d7d7;
 }
 
 .Twitter {
   color: #a864a8 !important;
-  border-radius: 4px !important;
+  border-radius: 10px !important;
   background-color: #d7d7d7;
 }
 
 .Github {
   color: #a864a8 !important;
-  border-radius: 4px !important;
+  border-radius: 10px !important;
   background-color: #d7d7d7;
 }
 
 .full-width {
-  border: 3px solid gray;
+  border: 1.5px solid gray;
   text-align: center;
   font-weight: 600;
+  border-radius: 10px;
 }
 
 /* job titles */
