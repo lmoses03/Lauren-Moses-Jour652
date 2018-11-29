@@ -1,7 +1,7 @@
 #container {
   max-width: 1000px;
   width: 100%;
-  text-align:center;
+  margin: 0 auto;
 }
 
 .byline {
@@ -18,9 +18,17 @@ figcaption {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   width: 100%;
-  background-color: #a18f7b;
+  background-color: #c1b5a5 !important;
+}
+
+.Mike{
+  text-align: center;
+}
+
+.fulltime {
+  text-align: center;
 }
 
 .img-container {
@@ -32,36 +40,30 @@ body {
   position: relative;
 }
 
+p {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
 
 h1{
 font-size: 7em;
-font-family: "Shadows into Light", san-sans-serif;
+font-family: 'Lato', sans-serif;
 }
 
 h2{
   text-align: center;
-  font-size: 9px;
 }
 
 h3{
 text-decoration: underline;
 }
 
+iframe {
+  margin: 0 auto;
+}
 
 blockquote {
     background: #eee;
     border-radius: 5px;
     font-size: 16px;
-}
-
-blockquote p {
-    padding: 15px;
-}
-
-blockquote p::before {
-    content: '\201C';
-}
-
-blockquote p::after {
-    content: '\201D';
 }
