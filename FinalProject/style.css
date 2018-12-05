@@ -17,6 +17,11 @@ figcaption {
   height: 100%;
 }
 
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   width: 100%;
