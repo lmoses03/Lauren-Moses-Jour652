@@ -24,7 +24,7 @@ figcaption {
 body {
   font-family: 'Lato', sans-serif;
   width: 100%;
-  background-color:
+  background-image: linear-gradient(#FBF9FF,#B8CFE8);
 }
 
 .Mike{
@@ -106,4 +106,13 @@ blockquote {
     background: #eee;
     border-radius: 5px;
     font-size: 16px;
+}
+
+.footer {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  background-color:#B8CFE8;
+  color: black;
+  height: 50px;
+  text-align: center;
 }
